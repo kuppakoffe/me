@@ -6,5 +6,9 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
-}
+  plugins: ['gatsby-plugin-typography'],
+  siteMetadata: {
+    title: "girrafe academy's website",
+    author: 'sumit',
+  },
+};
